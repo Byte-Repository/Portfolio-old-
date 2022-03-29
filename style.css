@@ -1,0 +1,347 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body {
+  font-family: 'nunito';
+  color: white;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+}
+
+
+
+
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  
+  height: 19px;
+  padding: 25px 0px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: black;
+  opacity: 0.7;
+  
+  z-index: 5;
+}
+
+header a{
+  margin-right: 2rem;
+  color: yellowgreen;
+  
+  text-decoration: none;
+  z-index: 5;
+}
+
+header a:hover{
+  margin-right: 2rem;
+  color: purple;
+  
+  text-decoration: underline;
+  z-index: 5;
+}
+
+header h3{
+  margin-right: 2rem;
+  color: azure;
+  
+  text-decoration: none;
+}
+
+
+
+
+.background_grid {
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+  
+  grid-template-columns: 100%;
+  grid-gap: 0px;
+  
+  width: 100%;
+  height: auto;
+  
+  z-index: -2;
+}
+
+#background1 {
+  grid-column: 1;
+  grid-row: 1;
+  
+  z-index: -1; 
+}
+
+#background2 {
+  grid-column: 1;
+  grid-row: 2;
+
+  z-index: -1; 
+}
+
+#background3 {
+  grid-column: 1;
+  grid-row: 3;
+  
+  z-index: -1; 
+}
+
+#background4 {
+  grid-column: 1;
+  grid-row: 4;
+  
+  z-index: -1; 
+}
+
+.background_stretch {
+ width:100%;
+ height:auto;
+}
+
+
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  
+  position: absolute;
+  top: 10vw;
+  left: 0vw;
+  z-index: 2;
+}
+
+#welcome-section h1{
+  text-align: left;  
+  font-size: 3vw;
+  color: purple;
+  
+  position: absolute;
+  top: 5vw;
+  left: 7vw;
+}
+
+#welcome-section h2{
+  text-align: left;  
+  font-size: 4vw;
+  color: black;
+  
+  position: absolute;
+  top: 10vw;
+  left: 7vw;
+  
+  border-bottom: 1px solid gray; 
+  padding-bottom: 3px;
+  border-bottom-width: 1px; 
+  
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+
+
+
+#projects {
+  width: 100%;
+  height: auto;
+  
+  position: absolute;
+  top: 46vw;
+  left: 0vw;
+  z-index: 2;
+}
+
+#projects h3{
+  text-align: left;  
+  font-size: 3vw;
+  color: lightseagreen;
+  
+  position: absolute;
+  top: 105vw;
+  left: 7vw;
+  
+  border-bottom: 1px solid gray; 
+  border-bottom-width: 1px; 
+  
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+#projectsbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: 135vw;
+  left: 3vw;
+  
+  width: 100%;
+  height: auto;
+
+  font-size: 3vw;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+#projectsbar a{
+  margin-right: 11vw;
+  margin-left: 11vw;
+  color: yellowgreen;
+  
+  text-decoration: none;
+  z-index: 2;
+}
+
+#projectsbar a:hover{
+  margin-right: 11vw;
+  margin-left: 11vw;
+  color: purple;
+  
+  font-weight: bold;
+  z-index: 2;
+}
+
+
+#skills {
+  width: 100%;
+  height: auto;
+  
+  position: absolute;
+  top: 170vw;
+  left: 7vw;
+  z-index: 2;
+}
+
+#skills h3{
+  text-align: left;  
+  font-size: 3vw;
+  color: lightseagreen;
+  
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  
+  border-bottom: 1px solid gray; 
+  border-bottom-width: 1px; 
+  
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+#contact {
+  width: 75%;
+  height: auto;
+  
+  position: absolute;
+  top: 375vw;
+  left: 16vw;
+  z-index: 2;
+}
+
+
+#contact h3{
+  text-align: left;  
+  font-size: 3vw;
+  color: black;
+  
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  
+  border-bottom: 1px solid gray; 
+  border-bottom-width: 1px; 
+  
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+
+#contact h6 {
+  text-align: left;  
+  font-size: 1.5vw;
+  color: whitesmoke;
+  flex-wrap: wrap;
+  
+  position: absolute;
+  top: 10vw;
+  left: 3vw;
+  
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  
+  border-bottom: 1px solid dimgray; 
+  padding-bottom: 5vw;
+}
+
+#twitch_channel {
+  width: 5vw;
+  text-align: left;  
+  
+  position: absolute;
+  top: 43vw;
+  left: 3vw;
+  
+  opacity: 0.85;
+  z-index: 3;
+}
+
+
+img:hover {
+  filter: brightness(150%);
+}
+
+#console_games {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  
+  position: absolute;
+  top: 40vw;
+  left: -7vw;
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) 
+{
+    header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    height: 2vw;
+    padding: 25px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    opacity: 0.7;
+
+    z-index: 5;
+    font-size: 2vw;
+  }
+  
+  #VD_logo {
+  width: 12vw;
+  }
+
+#welcome-section h2{
+  font-size: 3.5vw;
+}
