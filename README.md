@@ -1,7 +1,7 @@
 # Portfolio
 
 
------------------------------------
+
 Throughout this project I was given the freedom to create a personl portfolio page, and I decided to include most of my gaming information from twitch channel to my console gamertag. This project helped me learn new methods from creating headers, text alignment and text decoration. 
 -----------------------------------
 
