@@ -1,3 +1,2 @@
 # Portfolio
-
-[Portfolio.pdf](https://github.com/CesarOrtega4/Portfolio/files/8374383/Portfolio.pdf)
+![Screenshot 2022-03-29 141334](https://user-images.githubusercontent.com/50154378/160689695-92ffd0b7-74f2-4eca-8f8b-5e91dda04ea3.png)
